@@ -63,9 +63,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: TextStyle(fontSize: 20),
               ),
               Container(
-                color: Colors.white,
+                // color: Colors.white,
                 width: 140,
                 height: 60,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(10),
+                  ),
+                ),
                 child: Row(
                   children: [
                     IconButton(
